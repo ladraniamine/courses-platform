@@ -22,6 +22,7 @@ const Home = () => {
           </div>
       </div>
     </div>
+    {/* ------------------------------------------------------------------------- */}
     <div className='w-full bg-black'>
       <div className='container m-auto grid grid-cols-12'>
           <div className="col-span-6 text-white">
@@ -53,6 +54,61 @@ const Home = () => {
             <span className='absolute bg-[#F31D1D] w-[487px] h-[415px] rounded-xl right-1 bottom-0 '></span>
             </div>
           </div>
+      </div>
+    </div>
+    {/* ---------------------------------------------------------------------- */}
+    <div className='w-full bg-[#1F1F1F]'>
+      <div className='container m-auto grid grid-cols-12'>
+      <div className="col-span-6 flex items-center justify-center">
+            <div className='relative w-[447px] h-[550px] '>
+            <img className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10' src={require("../assets/image2.png")} alt="img" />
+            <span className='absolute bg-[#F31D1D] w-[487px] h-[282px] rounded-xl right-1 bottom-0 '></span>
+            </div>
+          </div>
+          <div className="col-span-6 text-white mb-[110px]">
+            <h1 className=' max-w-[518px] h-[126px] text-[48px] font-bold mt-[50px] text-start'>Subscription and benefits.</h1>
+            <p className='text-[15px] text-start mt-[38px] max-w-[518px]'> We also ensure that our courses are affordable to anyone and accessible from anywhere in the world. Our exceptional mentors are there to guide our students in pursuit of their life aspirations. Together we build a community that supports each other and make the whole experience into another level.</p>
+            <div className='mt-[60px] grid grid-cols-12'>
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>New proffesion.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>             
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>Learn at your own pace.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>    
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>New proffesion.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>             
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>Learn at your own pace.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>    
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>New proffesion.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>             
+                <div className='col-span-6 flex items-center justify-start mb-[40px]'>
+                  <img className='mx-2' src={require("../assets/Vector.png")} alt="icon" />
+                  <span className='text-[18px]  relative'>Learn at your own pace.
+                    <span className='absolute top-[25px] left-0 text-[14px] text-gray-400'>For new normal.</span>
+                  </span>
+                </div>    
+              
+            </div>
+          </div>
+          
       </div>
     </div>
     </section>
