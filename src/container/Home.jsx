@@ -107,8 +107,26 @@ const Home = () => {
                 </div>    
               
             </div>
+          </div>  
+      </div>
+    </div>
+    {/* ---------------------------------------------------------------------- */}
+    <div className='w-full bg-black'>
+      <div className='container m-auto grid grid-cols-12'>
+          <div className="col-span-6 text-white ">
+            <h1 className=' max-w-[518px] h-[126px] text-[48px] font-bold mt-[50px] text-start'> Share about the community.</h1>
+            <p className='text-[15px] text-start mt-[38px] max-w-[518px]'> We also ensure that our courses are affordable to anyone and accessible from anywhere in the world. Our exceptional mentors are there to guide our students in pursuit of their life aspirations. Together we build a community that supports each other and make the whole experience into another level.</p>
+           <div className='grid grid-cols-12  items-center justify-start w-full'>
+           <button className='col-span-12 bg-[#F31D1D] rounded-xl rounded-br-xl w-[257px] h-[54px] hover:bg-[#f31d1dad] mt-[74px] '>Get started</button>
+           <button className='col-span-12 bg-[#0000] border rounded-xl rounded-br-xl w-[257px] h-[54px] hover:bg-gray-900 mt-[30px] mb-[92px]'>Learn more</button>
+           </div>
           </div>
-          
+          <div className="col-span-6 flex items-center justify-end">
+            <div className='relative w-[447px] h-[550px] '>
+            <img className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] z-10' src={require("../assets/image3.png")} alt="img" />
+            <span className='absolute bg-[#F31D1D] w-[487px] h-[415px] rounded-xl right-1 bottom-0 '></span>
+            </div>
+          </div>
       </div>
     </div>
     </section>
