@@ -129,6 +129,7 @@ const Home = () => {
           </div>
       </div>
     </div>
+          <hr  className='h-[3px] w-[80%] m-auto'/>
     </section>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Header = () => {
+    
   return (
-   <nav className='w-full py-5 fixed z-40'>
+   <nav className='w-full py-5 fixed z-40 bg-[#000000a6]'>
       <div className='container h-full m-auto grid grid-cols-12'>
           <div className='col-span-2 flex items-center justify-start'>
             <a href="/home" className='font-bold text-white text-[19px] '>Edumena</a>
@@ -16,6 +17,7 @@ const Header = () => {
           <div className='col-span-3 flex items-center justify-end'>
             <button className='w-[180px] h-[50px] bg-[#F31D1D] text-white rounded-[15px] border-none hover:bg-[#f31d1dad]'>Register now</button>
             </div>
+            
       </div>
    </nav>
   )
