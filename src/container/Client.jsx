@@ -1,6 +1,19 @@
 import React from 'react'
 
 const Client = () => {
+ 
+  const handleToggelClick = (e)=>{
+      if(e.target.classList.contains("accorlist")){
+          if(e.target.parentElement.offsetHeight >= 156){
+            e.target.parentElement.style.height = "56px"
+            e.target.parentElement.style.transition = "1s"
+          }else{
+            e.target.parentElement.style.height = `${e.target.parentElement.lastChild.offsetHeight + 56}px`
+            e.target.parentElement.style.transition = "1s"
+          }
+      }
+    }
+
   return (
     <div className='my-[80px]'>
         <h2 className='text-white text-[40px] font-bold text-center'>Client Say’s About Us</h2>
@@ -74,6 +87,47 @@ const Client = () => {
                     <span className='text-[#AAAAAA]'>Name Surname</span>
                   </div>
                 </div>
+          </div>
+        </div>
+          <hr className='w-[80%] m-auto mt-[70px]'/>
+        <h2 className='text-[40px] text-white font-bold text-center mt-[47px]'>Frequently Asked Questions</h2>
+        <p className='mt-[14px] w-[444px]  text-gray-400 m-auto'>Browser our faq’s below, if you can not find the answer at Edumena</p>
+        {/* -----------------------------------------------fAQ---------------------- */}
+        <div className='container m-auto mt-[50px]'>
+          <div onClick={handleToggelClick}  className=" relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s]">
+          <div  className='accorlist w-full m-auto h-[56px] bg-black border text-white border-white  rounded-3xl p-5 flex items-center justify-between '>
+            <span>How much should i pay for online class?</span>
+            <img  src={require("../assets/faq.png")} alt="faq" />
+          </div>
+          <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
+          </div>
+          <div onClick={handleToggelClick} className="mt-6 relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s] ">
+          <div className='accorlist w-full m-auto h-[56px] bg-black border text-white border-white  rounded-3xl p-5 flex items-center justify-between '>
+            <span>Can i custumize my class learning online?</span>
+            <img src={require("../assets/faq.png")} alt="faq" />
+          </div>
+          <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
+          </div>
+           <div onClick={handleToggelClick} className="mt-6 relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s] ">
+          <div className='accorlist w-full m-auto h-[56px] bg-black border text-white border-white  rounded-3xl p-5 flex items-center justify-between '>
+            <span>Can i choose a tutor or teacher for online class?</span>
+            <img src={require("../assets/faq.png")} alt="faq" />
+          </div>
+          <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
+          </div>
+          <div onClick={handleToggelClick} className="mt-6 relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s] ">
+          <div className='accorlist w-full m-auto h-[56px] bg-black border text-white border-white  rounded-3xl p-5 flex items-center justify-between '>
+            <span>24/7 custemer services?</span>
+            <img src={require("../assets/faq.png")} alt="faq" />
+          </div>
+          <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
+          </div>
+          <div onClick={handleToggelClick} className="mt-6 relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s] ">
+          <div className='accorlist w-full m-auto h-[56px] bg-black border text-white border-white  rounded-3xl p-5 flex items-center justify-between '>
+            <span>How do i get the online learning materials?</span>
+            <img src={require("../assets/faq.png")} alt="faq" />
+          </div>
+          <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
           </div>
         </div>
     </div>
