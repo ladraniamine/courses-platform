@@ -130,6 +130,21 @@ const Client = () => {
           <div  className='absolute bottom-3 left-0 text-white w-full border border-white rounded-b-3xl rounded-t-xl z-[-1] p-5'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.sit, amet consectetur adipisicing elit. Repellendus numquam quod quasi eos quam aperiam molestiae officia. Ex omnis quaerat molestias, ratione doloremque voluptatum quasi cupiditate enim sapiente quisquam voluptatem.</div>
           </div>
         </div>
+        {/* -------------------------------- */}
+        <div className='container m-auto mt-[98px]'>
+          <div className='relative w-[70%] m-auto h-[500px] shadow-sm shadow-[#0f1011] rounded-3xl'>
+            <img className='absolute w-full h-full top-0 left-0' src={require("../assets/atheq.png")} alt="img" />
+            <div className='absolute text-start top-0 left-0 pt-[104px] pl-[80px] bg-[#0f1011] w-[50%] h-full z-[1] text-white rounded-3xl'>
+                <span className='text-[16px] mt-[104px]'>JOIN NOW</span>
+                <h2 className='font-bold text-[40px] mt-[16px]'>Stream anywhere. Cancel anytime.</h2>
+                <p className=' mt-[16px] text-gray-400'>Come on, register yourself to join online classes with. register with your email account and submit now,</p>
+                <div className='mt-[41px] text-white text-sm' >
+                  <input className='h-[45px] w-[220px] rounded-tl-xl rounded-bl-xl px-4  bg-[#0000] home-input' type="text" placeholder='Your email' />
+                  <button className='bg-[#F31D1D] rounded-tr-xl rounded-br-xl w-[120px] h-[45px] hover:bg-[#f31d1dad]'>Get started</button>
+                </div>
+            </div>
+          </div>
+        </div>
     </div>
   )
 }
