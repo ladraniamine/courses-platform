@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+  
   return (
     <div className='text-white bg-[#1F1F1F] py-[50px] '>
       <div className="container m-auto grid grid-cols-12">
