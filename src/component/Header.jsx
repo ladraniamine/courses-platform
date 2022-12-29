@@ -6,7 +6,7 @@ const Header = () => {
   const handleclick = ()=>{
     setopennavebar(!opennavbar)
   }
-  
+
   const li = (m)=>{
     return(
       <>
@@ -17,6 +17,7 @@ const Header = () => {
       </>
     )
   }
+  
   return (
    <nav className='w-full py-5 fixed z-40 bg-[#000000a6]'>
       <div className='container h-full m-auto flex items-center justify-between lg:grid lg:grid-cols-12'>

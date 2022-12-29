@@ -19,3 +19,24 @@ li a:hover{
 .accor{
 height: 156px;
 }
+
+@media (min-width:200px ) and (max-width:1014px) {
+  .layerbox{
+    box-shadow: 0px -40px 50px 50px  #000c;
+    filter: blur(50px);
+  }
+  .home-input{
+    border: 1px solid #f31d1dad;
+    
+  }
+  .home-input::placeholder{
+    color: #fff;
+    font-weight: 600;
+  }
+ .input-group input, .input-group button{
+    border-radius: 20px;
+ }
+ .container{
+  width: 90% !important;
+ }
+}
