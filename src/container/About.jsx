@@ -2,17 +2,18 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
-      <h1 className='text-white my-[80px] text-xl font-bold text-[47px]'>Share about the community.</h1>
-      <div className='w-full container m-auto'>
-        <div className='w-[442px] h-[442px] bg-[#0000] border rounded-full m-auto flex'>
+    <div className='bg-[#151515] lg:bg-black pt-1 lg:pt-0'>
+      {/* ----------------Share about the community------------- */}
+      <h1 className='about-share-title text-white my-9 lg:my-[80px] text-xl font-bold text-[40px] lg:text-[47px]'>Share about the community.</h1>
+      <div className='container m-auto'>
+        <div className='w-[350px] lg:w-[442px] h-[350px] lg:h-[442px] bg-[#0000] border rounded-full m-auto flex'>
           <span className='m-auto text-white text-[48px] font-bold'>Network</span>
         </div>
         <div className='grid grid-cols-12'>
-        <div className='col-span-6 w-[442px] h-[442px] bg-[#0000] border rounded-full m-auto flex'>
+        <div className='col-span-12 lg:col-span-6 w-[350px] lg:w-[442px] h-[350px] lg:h-[442px] bg-[#0000] border rounded-full mt-[-80px] lg:mt-0 m-auto flex'>
           <span className='m-auto text-white text-[48px] font-bold'>Grow</span>
         </div>
-        <div className='col-span-6 w-[442px] h-[442px] bg-[#0000] border rounded-full m-auto flex'>
+        <div className='col-span-12 lg:col-span-6 w-[350px] lg:w-[442px] h-[350px] lg:h-[442px] bg-[#0000] border rounded-full mt-[-80px] lg:mt-0 m-auto flex'>
           <span className='m-auto text-white text-[48px] font-bold'>Learn</span>
         </div>
         </div>

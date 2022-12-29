@@ -39,4 +39,8 @@ height: 156px;
  .container{
   width: 90% !important;
  }
+ 
+ .about-share-title{
+  line-height: 1.3 !important;
+ }
 }
