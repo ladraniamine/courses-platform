@@ -129,9 +129,9 @@ const Mentor = () => {
         </div>
         {/* ===================================================================== */}
         <div className='container m-auto mt-[65px]'>
-          <div className='w-full h-[217px] bg-[#F31D1D] rounded-3xl p-[57px] flex items-center justify-between '>
-            <h2 className='w-[359px] text-[40px] font-bold'>Stream anywhere. Cancel anytime.</h2>
-            <button className='w-[327px] h-[54px] bg-white text-[#F31D1D] rounded-2xl'>Get started</button>
+          <div className='w-full lg:h-[217px] bg-[#F31D1D] rounded-3xl p-7 lg:p-[57px] flex items-center justify-between '>
+            <h2 className='w-[359px] lg:text-[40px] font-bold'>Stream anywhere. Cancel anytime.</h2>
+            <button className='w-[150px] lg:w-[327px] h-[54px] bg-white text-[#F31D1D] rounded-2xl'>Get started</button>
           </div>
         </div>
     </div>
