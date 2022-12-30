@@ -19,7 +19,7 @@ const Client = () => {
         <h2 className='text-white text-[40px] font-bold text-center'>Client Say’s About Us</h2>
         <p className='w-[344px] text-gray-400 m-auto'>These are things that clients who have used our features and works says.</p>
         <div className='container m-auto mt-[52px] grid grid-cols-12 justify-items-center'>
-          <div className="col-span-4 w-[384px]  p-[20px] bg-[#1F1F1F] rounded-3xl">
+          <div className="col-span-12 lg:col-span-4 w-[384px] my-4 lg:my-0 p-[20px] bg-[#1F1F1F] rounded-3xl">
                 <div className='flex items-start justify-between'>
                       <div className='flex items-center justify-start'>
                           <img className='mr-[16px]' src={require("../assets/user.png")} alt="img" />
@@ -42,7 +42,7 @@ const Client = () => {
                   </div>
                 </div>
           </div>
-          <div className="col-span-4 w-[384px]  p-[20px] bg-[#1F1F1F] rounded-3xl">
+          <div className="col-span-12 lg:col-span-4 w-[384px] my-4 lg:my-0 p-[20px] bg-[#1F1F1F] rounded-3xl">
                 <div className='flex items-start justify-between'>
                       <div className='flex items-center justify-start'>
                           <img className='mr-[16px]' src={require("../assets/user.png")} alt="img" />
@@ -65,7 +65,7 @@ const Client = () => {
                   </div>
                 </div>
           </div>
-          <div className="col-span-4 w-[384px]  p-[20px] bg-[#1F1F1F] rounded-3xl">
+          <div className="col-span-12 lg:col-span-4 w-[384px] my-4 lg:my-0 p-[20px] bg-[#1F1F1F] rounded-3xl">
                 <div className='flex items-start justify-between'>
                       <div className='flex items-center justify-start'>
                           <img className='mr-[16px]' src={require("../assets/user.png")} alt="img" />
@@ -131,7 +131,7 @@ const Client = () => {
           </div>
         </div>
         {/* -------------------------------- */}
-        <div className='container m-auto mt-[98px]'>
+        <div className='hidden lg:block container m-auto mt-[98px]'>
           <div className='relative w-[70%] m-auto h-[500px] shadow-sm shadow-[#0f1011] rounded-3xl'>
             <img className='absolute w-full h-full top-0 left-0' src={require("../assets/atheq.png")} alt="img" />
             <div className='absolute text-start top-0 left-0 pt-[104px] pl-[80px] bg-[#0f1011] w-[50%] h-full z-[1] text-white rounded-3xl'>
