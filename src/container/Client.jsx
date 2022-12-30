@@ -91,7 +91,7 @@ const Client = () => {
         </div>
           <hr className='w-[80%] m-auto mt-[70px]'/>
         <h2 className='text-[40px] text-white font-bold text-center mt-[47px]'>Frequently Asked Questions</h2>
-        <p className='mt-[14px] w-[444px]  text-gray-400 m-auto'>Browser our faq’s below, if you can not find the answer at Edumena</p>
+        <p className='mt-[14px] w-[90%] lg:w-[444px]  text-gray-400 m-auto'>Browser our faq’s below, if you can not find the answer at Edumena</p>
         {/* -----------------------------------------------fAQ---------------------- */}
         <div className='container m-auto mt-[50px]'>
           <div onClick={handleToggelClick}  className=" relative m-auto w-[70%] rounded-3xl overflow-hidden transition-[1s]">

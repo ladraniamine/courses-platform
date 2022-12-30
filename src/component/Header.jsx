@@ -19,7 +19,7 @@ const Header = () => {
   }
   
   return (
-   <nav className='w-full py-5 fixed z-40 bg-[#000000a6]'>
+   <nav className='w-[100vw] py-5 fixed z-40 bg-[#000000a6]'>
       <div className='container h-full m-auto flex items-center justify-between lg:grid lg:grid-cols-12'>
           <div className='col-span-2 flex items-center justify-start'>
             <a href="/home" className='font-bold text-white text-[19px] '>Edumena</a>
