@@ -18,10 +18,10 @@ const About = () => {
         </div>
         </div>
       </div>
-      {/* ------------------------------------- */}
+      {/* ----------------We offer the plane and the pilot.---------------- */}
       <div className='bg-black  pt-6 lg:pt-0 mt-8 lg:mt-[180px]'>
         <div className='container m-auto  mb-[120px]'>
-            <h2 className='lg:hidden text-white font-bold text-[40px] text-center mb-4'>We offer the plane and the pilot.</h2>
+            <h2 className='lg:hidden text-white font-bold text-[40px] text-center my-8'>We offer the plane and the pilot.</h2>
             <div className='grid grid-cols-12  text-white bg-[#151515] lg:bg-[#0000]  rounded-3xl lg:rounded-none mb-10 lg:mb-[180px] relative'>
               <div className="col-span-12 lg:col-span-6 flex items-center justify-start order-1 lg:order-0">
                 <div className='p-7 lg:p-0 w-full lg:w-auto'>
@@ -94,7 +94,6 @@ const About = () => {
               </div>
               
             </div>
-           
         </div>
       </div>
     </div>

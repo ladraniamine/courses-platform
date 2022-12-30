@@ -13,9 +13,10 @@ const Mentor = () => {
               <button className='bg-white text-black w-[165px] h-[56px] rounded-[100px]'>View More</button>
             </div>
         </div>
+        {/* -----------------Mentors available------------------- */}
         <div className='mt-[75px]'>
             <div className='container m-auto grid grid-cols-12'>
-                <div className="col-span-3 flex items-center justify-center">
+                <div className="col-span-12 my-4 lg:my-0 lg:col-span-3 flex items-center justify-center">
                       <div className='w-[282px]  bg-[#151515] p-[24px] rounded-xl'>
                           <img className='w-[234px] h-[234px]' src={require("../assets/m1.png")} alt="m1" />
                           <h2 className='mt-[15px] text-[20px] font-bold text-start'>Mr. Sandi Tofang</h2>
@@ -27,7 +28,7 @@ const Mentor = () => {
                           <button className='mt-[24px] w-full h-[52px] bg-[#F31D1D] rounded-xl'>View Details</button>
                       </div>
                 </div>
-                <div className="col-span-3 flex items-center justify-center">
+                <div className="col-span-12 my-4 lg:my-0 lg:col-span-3 flex items-center justify-center">
                       <div className='w-[282px]  bg-[#151515] p-[24px] rounded-xl'>
                           <img className='w-[234px] h-[234px]' src={require("../assets/m2.png")} alt="m1" />
                           <h2 className='mt-[15px] text-[20px] font-bold text-start'>Mr. Sandi Tofang</h2>
@@ -39,7 +40,7 @@ const Mentor = () => {
                           <button className='mt-[24px] w-full h-[52px] bg-[#F31D1D] rounded-xl'>View Details</button>
                       </div>
                 </div>
-                <div className="col-span-3 flex items-center justify-center">
+                <div className="col-span-12 my-4 lg:my-0 lg:col-span-3 flex items-center justify-center">
                       <div className='w-[282px]  bg-[#151515] p-[24px] rounded-xl'>
                           <img className='w-[234px] h-[234px]' src={require("../assets/m3.png")} alt="m1" />
                           <h2 className='mt-[15px] text-[20px] font-bold text-start'>Mr. Sandi Tofang</h2>
@@ -51,7 +52,7 @@ const Mentor = () => {
                           <button className='mt-[24px] w-full h-[52px] bg-[#F31D1D] rounded-xl'>View Details</button>
                       </div>
                 </div>
-                <div className="col-span-3 flex items-center justify-center">
+                <div className="col-span-12 my-4 lg:my-0 lg:col-span-3 flex items-center justify-center">
                       <div className='w-[282px]  bg-[#151515] p-[24px] rounded-xl'>
                           <img className='w-[234px] h-[234px]' src={require("../assets/m4.png")} alt="m1" />
                           <h2 className='mt-[15px] text-[20px] font-bold text-start'>Mr. Sandi Tofang</h2>
@@ -78,7 +79,7 @@ const Mentor = () => {
         </div>
         <div className='mt-[75px]'>
             <div className='container m-auto grid grid-cols-12'>
-                <div className="col-span-4 flex items-center justify-center">
+                <div className="col-span-12 lg:col-span-4 flex items-center justify-center my-3 lg:my-0">
                       <div className='w-[384px]  bg-[#151515] p-[24px] rounded-3xl'>
                         <div className=' w-full h-[258px] relative'>
                           <img className='w-full h-full absolute top-0 left-0' src={require("../assets/e1.png")} alt="m1" />
@@ -93,7 +94,7 @@ const Mentor = () => {
                           </div>
                       </div>
                 </div>
-                <div className="col-span-4 flex items-center justify-center">
+                <div className="col-span-12 lg:col-span-4 flex items-center justify-center my-3 lg:my-0">
                       <div className='w-[384px]  bg-[#151515] p-[24px] rounded-3xl'>
                         <div className=' w-full h-[258px] relative'>
                           <img className='w-full h-full absolute top-0 left-0' src={require("../assets/e2.png")} alt="m1" />
@@ -108,7 +109,7 @@ const Mentor = () => {
                           </div>
                       </div>
                 </div>
-                <div className="col-span-4 flex items-center justify-center">
+                <div className="col-span-12 lg:col-span-4 flex items-center justify-center my-3 lg:my-0">
                       <div className='w-[384px]  bg-[#151515] p-[24px] rounded-3xl'>
                         <div className=' w-full h-[258px] relative'>
                           <img className='w-full h-full absolute top-0 left-0' src={require("../assets/e3.png")} alt="m1" />
