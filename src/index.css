@@ -5,8 +5,9 @@
 body{
   font-family: 'Inter', sans-serif;
   background-color: black;
-  width: 100vw !important;
   overflow-x: hidden;
+  width: 100vw !important;
+  
 }
 /* *{
   border: 1px solid #fff ;
